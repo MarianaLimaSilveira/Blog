@@ -24,8 +24,8 @@ body {
 .container {
     width: 700px;
     margin: 40px auto; /*só pra deixar no centro*/
-    background-color: rgba(255, 255, 255, 0.85); 
-    border: 3px dashed #ff69b4; 
+    background-color: rgba(0, 0, 0, 0.85); 
+    border: 3px dashed #ff42a1; 
     border-radius: 15px; 
     padding: 20px; /*pro texto não colar na borda */
 }
@@ -39,7 +39,7 @@ h1 {
 
 /*das caixinhas internas*/
 .perfil-box, .conteudo-box {
-    border: 2px solid #ff72b9;
+    border: 2px solid #ff4190;
     background-color: #ffacd6;
     padding: 15px;
     margin: 15px 0;
@@ -51,7 +51,7 @@ h1 {
     float: left; 
     margin-right: 15px;
     border-radius: 10px; 
-    border: 2px solid #f83395;
+    border: 2px solid #000000;
 }
 
 
@@ -59,7 +59,7 @@ h1 {
 /* Estilo para a fita de texto rolando no topo */
 marquee {
     background-color: #000000;
-    color: rgb(255, 53, 177);
+    color: rgb(255, 110, 199);
     padding: 5px;
     font-size: 18px;
     border-radius: 5px;
@@ -68,8 +68,8 @@ marquee {
 
 
 mark {
-    background-color: hsl(340, 100%, 65%); 
-    color: hsl(338, 76%, 84%); 
+    background-color: hsl(0, 0%, 0%); 
+    color: hsl(338, 100%, 76%); 
     border-radius: 3px; 
     padding: 2px 5px; 
 }
